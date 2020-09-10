@@ -21,10 +21,16 @@ npm install jk-markdown-it --save
 
 ## Usage examples
 引入 `index.js` ：
+```html
+<div class="jk-markdown-it"></div>
+```
+
 ```js
 import markdownIt from "jk-markdown-it";
 import "jk-markdown-it/styles/markdown-it.css";
 const html = markdownIt("## md");
+const jkMarkdownIt = document.getElementsByClassName("jk-markdown-it")[0];
+jkMarkdownIt.innerHTML = html;
 ```
 
 引入 `vue` 组件：
