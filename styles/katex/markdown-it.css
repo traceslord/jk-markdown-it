@@ -1,0 +1,292 @@
+/* KATEX 公式： */
+@import "./katex.css";
+
+/* 布局： */
+.jk-markdown-it .hljs-center {
+  text-align: center;
+}
+.jk-markdown-it .hljs-right {
+  text-align: right;
+}
+.jk-markdown-it .hljs-left {
+  text-align: left;
+}
+
+/* 任务列表： */
+.jk-markdown-it .contains-task-list {
+  padding-left: 4px;
+}
+.jk-markdown-it .contains-task-list .task-list-item {
+  list-style-type: none;
+}
+.jk-markdown-it .contains-task-list .task-list-item + .task-list-item {
+  margin-top: 4px;
+}
+.jk-markdown-it .contains-task-list .task-list-item input {
+  margin-right: 4px;
+  vertical-align: middle;
+}
+
+/* 默认： */
+.jk-markdown-it {
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  line-height: 1.5;
+  color: #24292e;
+  word-wrap: break-word;
+  cursor: text;
+}
+.jk-markdown-it > *:first-child {
+  margin-top: 0 !important;
+}
+.jk-markdown-it > *:last-child {
+  margin-bottom: 0 !important;
+}
+
+.jk-markdown-it a {
+  color: #409eff;
+  text-decoration: none;
+  word-break: break-all;
+}
+.jk-markdown-it a:hover {
+  color: #66b1ff;
+  text-decoration: underline;
+}
+.jk-markdown-it a:hover,
+.jk-markdown-it a:active {
+  outline: 0;
+}
+
+.jk-markdown-it h1,
+.jk-markdown-it h2,
+.jk-markdown-it h3,
+.jk-markdown-it h4,
+.jk-markdown-it h5,
+.jk-markdown-it h6 {
+  font-weight: 600;
+  color: #000;
+}
+.jk-markdown-it h1 {
+  margin: 28px 0 10px 0;
+  font-size: 28px;
+  line-height: 36px;
+}
+.jk-markdown-it h2 {
+  margin: 24px 0 8px 0;
+  font-size: 24px;
+  line-height: 32px;
+}
+.jk-markdown-it h3 {
+  margin: 22px 0 7px 0;
+  font-size: 22px;
+  line-height: 30px;
+}
+.jk-markdown-it h4 {
+  margin: 20px 0 6px 0;
+  font-size: 20px;
+  line-height: 28px;
+}
+.jk-markdown-it h5 {
+  margin: 18px 0 5px 0;
+  font-size: 18px;
+  line-height: 26px;
+}
+.jk-markdown-it h6 {
+  margin: 16px 0 4px 0;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.jk-markdown-it p,
+.jk-markdown-it div {
+  margin-bottom: 16px;
+}
+
+.jk-markdown-it b,
+.jk-markdown-it strong {
+  font-weight: bold;
+}
+
+.jk-markdown-it i,
+.jk-markdown-it em {
+  font-style: italic;
+}
+
+.jk-markdown-it u,
+.jk-markdown-it ins {
+  text-decoration: underline;
+}
+
+.jk-markdown-it strike,
+.jk-markdown-it del,
+.jk-markdown-it s {
+  text-decoration: line-through;
+}
+
+.jk-markdown-it mark {
+  background-color: yellow;
+  color: black;
+}
+
+.jk-markdown-it sup {
+  font-size: smaller;
+  vertical-align: super;
+}
+
+.jk-markdown-it sub {
+  font-size: smaller;
+  vertical-align: sub;
+}
+
+.jk-markdown-it ul {
+  list-style: disc outside none;
+}
+.jk-markdown-it ol {
+  list-style: decimal;
+}
+.jk-markdown-it ul,
+.jk-markdown-it ol {
+  margin-bottom: 16px;
+  padding-left: 2em;
+}
+.jk-markdown-it ul ul,
+.jk-markdown-it ol ul {
+  margin-bottom: 0;
+  list-style: circle outside none;
+}
+.jk-markdown-it ul ul ul,
+.jk-markdown-it ol ul ul {
+  margin-bottom: 0;
+  list-style: square outside none;
+}
+.jk-markdown-it ul ul ol,
+.jk-markdown-it ol ul ol {
+  margin-bottom: 0;
+  list-style-type: lower-alpha;
+}
+.jk-markdown-it ul ol,
+.jk-markdown-it ol ol {
+  margin-bottom: 0;
+  list-style-type: lower-roman;
+}
+.jk-markdown-it ul ol ul,
+.jk-markdown-it ol ol ul {
+  margin-bottom: 0;
+  list-style: square outside none;
+}
+.jk-markdown-it ul ol ol,
+.jk-markdown-it ol ol ol {
+  margin-bottom: 0;
+  list-style-type: lower-alpha;
+}
+
+.jk-markdown-it dl {
+  margin-bottom: 16px;
+}
+.jk-markdown-it dl dt {
+  font-style: italic;
+  font-weight: 600;
+}
+.jk-markdown-it dl dd {
+  margin-bottom: 16px;
+  padding: 0 16px;
+}
+
+.jk-markdown-it blockquote {
+  margin-bottom: 16px;
+  padding: 0 1em;
+  color: #6a737d;
+  border-left: 0.25em solid #dfe2e5;
+}
+.jk-markdown-it blockquote > :first-child {
+  margin-top: 0;
+}
+.jk-markdown-it blockquote > :last-child {
+  margin-bottom: 0;
+}
+
+.jk-markdown-it code {
+  padding: 0.2em;
+  font-size: 85%;
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  background-color: #f0f0f0;
+  border-radius: 3px;
+}
+.jk-markdown-it code:before,
+.jk-markdown-it code:after {
+  letter-spacing: -0.2em;
+  content: "\00a0";
+}
+
+.jk-markdown-it pre {
+  display: block;
+  margin-bottom: 16px;
+  padding: 16px 24px;
+  font-size: 85%;
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  line-height: 1.45;
+  background-color: #f0f0f0;
+  border-radius: 3px;
+  white-space: pre-wrap !important;
+  word-wrap: break-word !important;
+  overflow: auto;
+}
+.jk-markdown-it pre code {
+  display: inline;
+  padding: 0;
+  line-height: inherit;
+  background-color: transparent;
+  border-radius: 0;
+  overflow: visible;
+}
+.jk-markdown-it pre code:before,
+.jk-markdown-it pre code:after {
+  content: normal;
+}
+
+.jk-markdown-it hr {
+  display: block;
+  margin: 24px 0;
+  border: 0;
+  border-bottom: 2px solid #e8e8e8;
+}
+
+.jk-markdown-it table {
+  display: block;
+  margin-bottom: 16px;
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  border-spacing: 0;
+  overflow: auto;
+  cursor: default;
+}
+.jk-markdown-it table thead {
+  font-weight: bold;
+}
+.jk-markdown-it table tr {
+  background-color: #fff;
+}
+.jk-markdown-it table tr:nth-child(2n) {
+  background-color: #fafafa;
+}
+.jk-markdown-it table tr:hover {
+  background-color: #f5f7fa;
+}
+.jk-markdown-it table td,
+.jk-markdown-it table th {
+  padding: 10px 16px;
+  font-size: 14px;
+  border: 1px solid #ebeef5;
+}
+
+.jk-markdown-it img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.jk-markdown-it video {
+  width: 100%;
+  max-height: 560px;
+}
