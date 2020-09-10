@@ -1,5 +1,5 @@
 /* KATEX 公式： */
-@import "./katex.css";
+@import "./katex/katex.css";
 
 /* 布局： */
 .jk-markdown-it .hljs-center {

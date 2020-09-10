@@ -1,6 +1,6 @@
 {
   "name": "jk-markdown-it",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "markdown-it in JK",
   "main": "index.js",
   "scripts": {
