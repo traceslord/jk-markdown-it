@@ -6,7 +6,6 @@
     <img alt="code size" src="https://img.shields.io/github/languages/code-size/traceslord/jk-markdown-it">
   </a>
   <img alt="version" src="https://img.shields.io/github/package-json/v/traceslord/jk-markdown-it">
-  <img alt="dowmload" src="https://img.shields.io/npm/dw/jk-markdown-it">
   <a href="https://github.com/traceslord/jk-markdown-it/blob/master/LICENSE">
     <img src="https://img.shields.io/github/license/traceslord/jk-markdown-it" alt="license">
   </a>
