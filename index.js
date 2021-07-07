@@ -22,7 +22,7 @@ const optMarkdownIt = {
   quotes: "“”‘’"
 };
 
-const md = new MarkdownIt(optMarkdownIt)
+export const md = new MarkdownIt(optMarkdownIt)
   .use(MarkdownItSuperscript)
   .use(MarkdownItSubscript)
   .use(MarkdownItInsert)
